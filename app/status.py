@@ -13,7 +13,7 @@ def status():
     print('LocalNodeState: {}'.format(state))
 
     if state == 'active':
-        return status
+        return state
     abort(403)
 
 
